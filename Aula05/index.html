@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Aula 05 - Cadastrar CLIENTE <Object></Object></h1>
+    </header>
+    <main>
+        <h1> Entrada de  cLIENTES</h1>
+        <p>
+            <input type="text" name="nome" id="nome" placeholder="Primeiro nome">
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Ultimo nome">
+        </p>
+        <p>
+            <input type="number" name="idade" id="idade" placeholder="Idade" >
+            <input type="text" name="cidade" id="cidade" placeholder="Cidade">
+            <input type="text" name="uf" id="uf" placeholder="UF" maxlength="2">
+        </p>
+        <p>
+            <button onclick="cadastrarCliente();">Cadastrar</button>
+        </p>
+        <p>
+            <section id="novoCliente"></section>
+        </p>
+    </main>
+    <script src="./js/objeto.js"></script>
+</body>
+</html>

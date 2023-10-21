@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Aula 03 - Olá mundo!</h1>
+    </header>
+    <section>
+        <main>
+            <h2>Soma de Dois numeros</h2>
+            <input type="number" id="number1" placeholder="digite um numero" autofocus> +
+            <input type="number" id="number2" placeholder="digite um numero"> =
+            <button onclick="soma()">==></button>
+        </main>
+        <h3>Resultado:</h3>
+        <p id="result"></p>
+        <main>
+            <h2>Resultado das provas</h2>
+            <p>
+                <input type="text" name="nome" id="nome" placeholder="Primeiro nome" autofocus>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Ultimo nome">
+            <p>
+                <input type="number" name="nota" id="nota" mix="0" max="10">
+                <button onclick="resultado()">Verificar</button>
+
+            </p>
+            <h3>Resultado:</h3>
+            <p id="resposta"></p>
+            </p>
+        </main>
+    </section>
+    <footer>
+        <address>
+            Este material é parte integrante do módulo <strong>Javascript</strong>
+        </address>
+
+    </footer>
+    <script src="js/soma.js"></script>
+    <script src="js/nota.js"></script>
+</body>
+
+</html>

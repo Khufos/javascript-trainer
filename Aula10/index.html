@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 10 - Objeto Data</title>
+</head>
+<body>
+    <main>
+
+        
+    </main>
+    <script >
+        let agora =  new Date()
+        let ano = agora.getFullYear()
+        let hora = agora.getHours()
+        let dia = agora.getDate()
+        let semana  = agora.toLocaleDateString('pt-br',{weekday: 'long'})
+        let mes = agora.getMonth()
+        let mesPorExtenso = agora.toLocaleDateString('pt-br',{month:'long'})
+        let dataporexetenso = agora.toLocaleDateString('pt-br')
+        let horario = agora.toLocaleTimeString('pt-br')
+        let independencia = new Date("September 7 , 2024")
+        let diferenca = independencia - agora
+        let milisegundos = 24 * 60 * 60
+        let diferencaa = Math.round((independencia - agora) /milisegundos)
+        console.log(semana + "," + dataporexetenso + "," + horario)
+        console.log(agora)
+        console.log(ano)
+        console.log(semana)
+        console.log(mesPorExtenso)
+        console.log(dataporexetenso)
+        console.log(horario)
+        console.log(diferenca)
+        console.log(diferencaa)
+    </script>
+</body>
+</html>

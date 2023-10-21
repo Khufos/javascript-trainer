@@ -1,0 +1,16 @@
+let guitar = ['gibson','fender','rickenbacker']
+console.log(guitar)
+console.log(guitar.length)
+console.log(guitar[0])
+console.log(guitar[guitar.length -1])
+console.log(guitar[2])
+let newGuitar = guitar.push('ibanez')
+console.log(guitar)
+guitar.pop()
+console.log(guitar)
+let excluirOprimeiroItemDoArray = guitar.unshift('yamaha') // excluir o primeiro item e substituir
+console.log(guitar)
+let position = guitar.indexOf('fender')
+console.log(position)
+let removeItem = guitar.splice(position,1)
+console.log(guitar)

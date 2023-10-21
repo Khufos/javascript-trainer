@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+}
+
+main{
+    position:grid;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  
+   
+}
+.stage{
+    position: relative;
+    background-color: black;
+    width: 480px;
+    height: 260px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#ffect{
+    transition-property: background-color 3s, font-size 5s, color 2s 5s;
+    transition-duration: 3s;
+}

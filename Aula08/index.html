@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> Aula 08 - Eventos</h1>
+    </header>
+
+    <main>
+        <button onclick="AbreAlerta()">Alert</button>
+        <button class="mudaBG">Muda o Fundo</button>
+    </main>
+    <main>
+       <h2>Mostra video </h2>
+       <button id="mostrarvideo" name="mostrarvideo">Mostraw video</button>
+       <section class="hidden">
+        <video>
+        <source src="./media/rocket.mp4"
+       type="video/mp4">
+        <p>Your browser doesn't support HTML5 video.
+       Here is a <a href="./media/rocket.mp4">link to the video</a>
+       instead.</p>
+        </video>
+        </section>
+       
+    </main>
+    <script src="./js/event.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método to Fixed</title>
+    <style>
+        p{
+            font-size: 1.4rem;
+            color:#700;
+        }
+    </style>
+</head>
+<body>
+    <h1>Método toFixed</h1>
+    <h2>Valor de x:1.24545</h2>
+    <p>Valor arredondado de x: <span id="XResult"></span> com to Fixed(2)</p>
+    <p>Valor arredondado de x: <span id="XResult2"></span> com Math.round(x)</p>
+    <p>Valor arredondado de x: <span id="XResult3"></span> com Math.floor </p>
+    <p>Valor arredondado de x: <span id="XResult4"></span> com Math.ceil</p>
+  
+    <script>
+        const x = 1.24545
+        const XResult= +(x.toFixed(2))
+        const XResult2 = Math.round(x)
+        const XResult3 = Math.floor(parseFloat(x) * 100) / 100
+        const XResult4 = Math.ceil(parseFloat(x) * 100) / 100
+        document.getElementById('XResult').innerHTML = XResult
+        document.getElementById('XResult2').innerHTML = XResult2
+        document.getElementById('XResult3').innerHTML = XResult3
+        document.getElementById('XResult4').innerHTML = XResult4
+    </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+@import url('./reset.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 1rem;
+    background-color: black;
+    color: yellow;
+}
+
+blockquote {
+    font-size: 1.25rem;
+    margin: 2rem 1rem;
+    padding: 01.25rem;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 2.5rem;
+    background-color: yellow;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: 2px solid black;
+    display: grid;
+    justify-content: center;
+    background-image: linear-gradient(yellow, white);
+}
+
+address {
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+/*Configurações do exercício*/
+
+.main {
+    display: grid;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.path {
+    background-color: yellowgreen;
+    width: 100%;
+    min-height: 25px;
+    border: 1px solid darkolivegreen;
+    font-weight: 900;
+    line-height: 25px;
+}
+
+.box {
+    width: 5%;
+    height: 25px;
+    background-color: darkblue;
+    position: relative;
+}

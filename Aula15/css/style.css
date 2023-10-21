@@ -1,0 +1,103 @@
+@import url('./reset.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /*background: linear-gradient(black, darkturquoise);*/
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 1rem;
+    background-color: black;
+    color: yellow;
+}
+
+blockquote {
+    font-size: 1.25rem;
+    margin: 2rem 1rem;
+    padding: 01.25rem;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 2.5rem;
+    background-color: yellow;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: 2px solid black;
+    display: grid;
+    justify-content: center;
+    background-image: linear-gradient(yellow, white);
+}
+
+address {
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+/*Configurações do exercício*/
+
+.main {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.stage {
+    position: relative;
+    background-color: black;
+    width: 480px;
+    height: 260px;
+}
+
+.obj1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+}
+
+.obj2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+
+.obj3 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: green;
+}
+
+.obj4 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: purple;
+}
+
+.actions {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 18%;
+}
